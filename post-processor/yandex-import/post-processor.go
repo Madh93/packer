@@ -34,7 +34,7 @@ type Config struct {
 	// in storage service and first paths (URL) is used to, so no need to set this param.
 	Bucket string `mapstructure:"bucket" required:"false"`
 	// The name of the object key in `bucket` where the qcow2 file will be copied to import.
-	// This is a [template engine](/docs/templates/engine).
+	// This is a [template engine](/docs/legacy_json_templates/egine).
 	// Therefore, you may use user variables and template functions in this field.
 	ObjectName string `mapstructure:"object_name" required:"false"`
 	// Whether skip removing the qcow2 file uploaded to Storage

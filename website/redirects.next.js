@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     source: '/docs/templates/configuration-templates',
-    destination: '/docs/templates/engine',
+    destination: '/docs/legacy_json_templates/egine',
     permanent: true,
   },
   {
